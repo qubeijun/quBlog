@@ -12,10 +12,21 @@ module.exports = {
     nav: [ // 导航栏配置
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'love', link: '/love/' },
+      { text: 'Love', link: '/love/' },
       { text: 'GitHub', link: 'https://github.com/qubeijun' }
     ],
-    sidebar: 'auto', // 侧边栏配置
+    sidebar: {
+      '/guide/': [
+        {
+          title: 'Guide',
+          collapsable: true,
+          children: [
+            '',
+            'skos-xl',
+          ],
+        },
+      ],
+    }, // 侧边栏配置
     sidebarDepth: 2, // 侧边栏显示2级
   }
 };
