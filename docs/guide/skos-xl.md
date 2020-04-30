@@ -107,3 +107,24 @@ skosxl:Label类的一个实例只有一个文本形式。此文本形式是RDF�
 
 ## B.3. Preferred, Alternate and Hidden skosxl:Labels(首选、备用和隐藏的skosxl:Labels)
 
+### B.3.1. Preamble(序言)
+
+skosxl:prefLabel、skosxl:altLabel和skosxl:hiddenLabel这三个属性分别用于给出资源的首选标签、可选标签和隐藏标签，其中这些标签是类skosxl:Label的实例。这些属性类似于SKOS词汇表中定义的相同本地名称的属性，并且在下面定义的这两组属性之间存在逻辑依赖关系。
+
+### B.3.2. Class and Property Definitions(类和属性定义)
+
+|||
+|-|-|
+|S53|skosxl:prefLabel、skosxl:altLabel和skosxl:hiddenLabel是owl:ObjectProperty的每个实例。|
+|S54|skosxl:prefLabel、skosxl:altLabel和skosxl:hiddenLabel的rdfs:range是skosxl:Label类。|
+|S55|属性链（skosxl:prefLabel，skosxl:literalForm）是skos:prefLabel的子属性。|
+|S56|属性链（skosxl:altLabel，skosxl:literalForm）是skos:altLabel的子属性。|
+|S57|属性链（skosxl:hiddenLabel，skosxl:literalForm）是skos:hiddenLabel的子属性。|
+|S58|skosxl:prefLabel，skosxl:altLabel and skosxl:hiddenLabel是成对不相交的属性。|
+
+### B.3.3. Examples
+
+下面的示例演示了所有三个XL标签属性的使用，并且与SKOS+XL数据模型一致。
+|Example 82 (consistent)|
+|-|
+|< Love ><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:prefLabel< A >;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:altLabel< B >;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:hiddenLabel< C >.<br/><br/>< A >rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "love"@en .<br/><br/>< B >rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "adoration"@en.<br/><br/>< C > rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "luv"@en.|
