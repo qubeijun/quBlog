@@ -8,3 +8,4 @@ isShowComments: true
 
 
 - 爱你：[8023](https://qubeijun.github.io/quBlog/love/love.html)
+- 爱你：[8023](https://qubeijun.github.io/quBlog/love/love1.html)
