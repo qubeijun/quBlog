@@ -128,3 +128,35 @@ skosxl:prefLabel、skosxl:altLabel和skosxl:hiddenLabel这三个属性分别用�
 |Example 82 (consistent)|
 |-|
 |< Love ><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:prefLabel< A >;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:altLabel< B >;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:hiddenLabel< C >.<br/><br/>< A >rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "love"@en .<br/><br/>< B >rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "adoration"@en.<br/><br/>< C > rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "luv"@en.|
+
+### B.3.4. Notes
+
+#### B.3.4.1. Dumbing-Down to SKOS Lexical Labels(简化为SKOS词汇标签)
+
+子属性链公理S55、S56和S57支持通过推理将XL标签简化为普通SKOS词汇标签。下面的例子说明了这一点。
+
+|Example 83 (consistent)|
+|-|
+|< Love ><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:prefLabel< A >;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:altLabel< B >;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:hiddenLabel< C >.<br/><br/>< A >rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "love"@en .<br/><br/>< B >rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "adoration"@en.<br/><br/>< C > rdf:type skosxl:Label;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skosxl:literalForm "luv"@en.|
+|entails|
+|< Love ><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skos:prefLabel "love"@en;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skos:altLabel "adoration"@en;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;skos:hiddenLabel "luv"@en.|
+
+#### B.3.4.2. SKOS+XL Labeling Integrity(SKOS+XL标签完整性)
+
+在第5节中，对SKOS标记的基本性质定义了两个完整性条件。首先，属性skos:prefLabel、skos:altLabel和skos:hiddenLabel是成对不相交的。其次，由于上面定义的子属性链公理，以下四个例子，虽然与w.r.t.的XL数据模型一致，但与SKOS+XL数据模型不一致。
+
+|Example 84 (not consistent)|
+|-|
+|# Two different preferred labels in the same language</br></br>< Love > skosxl:prefLabel < A > ; skosxl:prefLabel < B >.</br>< A > skosxl:literalForm "love"@en.</br>< B > skosxl:literalForm "adoration"@en.|
+
+|Example 85 (not consistent)|
+|-|
+|# Clash between preferred and alternative labels</br></br>< Love > skosxl:prefLabel < A > ; skosxl:altLabel < B >.</br>< A > skosxl:literalForm "love"@en.</br>< B > skosxl:literalForm "love"@en.|
+
+|Example 86 (not consistent)|
+|-|
+|# Clash between alternative and hidden labels</br></br>< Love > skosxl:altLabel < A > ; skosxl:hiddenLabel < B >.</br>< A > skosxl:literalForm "love"@en.</br>< B > skosxl:literalForm "love"@en.|
+
+|Example 87 (not consistent)|
+|-|
+|# Clash between preferred and hidden labels</br></br>< Love > skosxl:prefLabel < A > ; skosxl:hiddenLabel < B >.</br>< A > skosxl:literalForm "love"@en.</br>< B > skosxl:literalForm "love"@en.|
