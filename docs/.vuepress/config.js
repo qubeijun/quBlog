@@ -22,6 +22,7 @@ module.exports = {
           collapsable: true,
           children: [
             '',
+            'skos组成',
             'skos-xl',
           ],
         },
