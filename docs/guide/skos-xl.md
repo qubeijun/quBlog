@@ -1,4 +1,4 @@
-# 附录B.SKOS标签扩展（SKOS-XL）
+## 附录B.SKOS标签扩展（SKOS-XL）
 
 本附录定义了简单知识组织系统的可选扩展，称为标签的SKOS扩展（SKOS-XL）。这个扩展为识别、描述和链接词汇实体提供了额外的支持。
 
@@ -8,7 +8,7 @@
 
 SKOS数据模型还定义了属性skosxl:labelRelation。此属性可用于断言skosxl:Label实例之间的直接（二进制）链接。它主要用作扩展点，以便针对更具体的链接类型进行优化。没有提供skosxl:labelRelation的内置改进，尽管给出了一些如何实现这一点的示例。
 
-## B.1. SKOS-XL Namespace and Vocabulary(SKOS-XL命名空间与词汇)
+### B.1. SKOS-XL Namespace and Vocabulary(SKOS-XL命名空间与词汇)
 
 SKOS-XL命名空间URI是：
 
@@ -33,7 +33,7 @@ Table 2. The SKOS-XL Vocabulary
 
 此处“XL数据模型”仅指本附录中所述的类和属性定义“SKOS+XL数据模型”是指上文第3-10节中定义的数据模型与XL数据模型的结合。
 
-## B.2. The skosxl:Label Class
+### B.2. The skosxl:Label Class
 
 ### B.2.1. Preamble(序言)
 
@@ -105,7 +105,7 @@ skosxl:Label类的一个实例只有一个文本形式。此文本形式是RDF�
 | ----------------------------------------------------------------------------------------- |
 | < A > rdf:type skosxl:Label ; skosxl:literalForm "love"@en ; skos:inScheme < MyScheme > . |
 
-## B.3. Preferred, Alternate and Hidden skosxl:Labels(首选、备用和隐藏的skosxl:Labels)
+### B.3. Preferred, Alternate and Hidden skosxl:Labels(首选、备用和隐藏的skosxl:Labels)
 
 ### B.3.1. Preamble(序言)
 

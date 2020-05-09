@@ -1,8 +1,9 @@
-# SKOS组成
+## SKOS组成
 
 SKOS词表是由一系列RDF定义的类和属性组成，这些类和属性涵盖了各种传统知识组织系统结构中使用到的标签。在基本的SKOS中，“概念”用URIs来识别，带有一种或多种自然语言“标签”，以及各种类型的“注释”，非等级结构或相关网络结构中的概念彼此“语义相关”，并集成“概念体系”。在高级的SKOS中，概念资源可以在不同的概念体系之间映射，被归入不同集合；可以指定概念标签之间的关系；也可以扩展SKOS词汇以适应特定群体的需要或者同其它数据模型的词汇相结合。另外，SKOS还定义了一个可选扩展-------SKOS扩展标签(SKOS eXtension for Labels, SKOS-XL)，该扩展提供识别、描述和链接词汇条目的额外支持。
 
 根据最新发布的《SKOS参考》及《SKOS初级读本》，SKOS中的词汇标签及其说明见表2-1。
+
 表2-1 SKOS词汇及其说明
 |类型    |SKOS词汇                |说明|
 |--------|-----------------------|---------|
@@ -44,3 +45,33 @@ SKOS词表是由一系列RDF定义的类和属性组成，这些类和属性涵�
 |        |skosxl:hiddenLabel       |隐藏skosxl标签|
 |        |skosxl:LiteralForm       |文本形式|
 |        |skosxl:labelRelation     |skosxl标签关系|
+
+## 附录1：SKOS词汇及其与《中分表》对照说明
+
+### 1.概念类
+
+SKOS词汇：
+
+    skos:Concept(概念)
+
+含义说明
+
+    skos:Concept(概念)
+    
+    SKOS使用skos:Concept类来声明特定资源是一个概念。先通过创建（或再利用）一个统一资源标识符（URI）来唯一标识概念；然后通过RDF声明，用这个URI标识的资源是一种类型的概念。
+
+示例：
+
+    主题词款目（“交响曲”）
+    <http://id_cct.nlc.gov.cn/thesaurus/S038576>rdf:type skos:Concept.
+    分类款目（“B哲学、宗教”）
+    <http://id_cct.nlc.gov.cn/classification/C000158>rdf:type skos:Concept.
+
+同词表对应情况：
+
+- 对应整条主题词款目。
+- 对应整条分类款目。
+
+可将MARC记录中“001 记录控制号”转化成HTTP协议下的URI资源，作为概念的唯一标识。MARC记录包括的其他字段在后面SKOS词汇中分别说明。
+
+### 2.概念体系
