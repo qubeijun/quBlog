@@ -1,0 +1,45 @@
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "afterDelay",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue-html",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "eslint.run": "onSave",
+  "prettier.semi": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "eslint.autoFixOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 150,
+  "prettier.singleQuote": true,
+  "vetur.format.defaultFormatter.js": "none",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[markdown]": {
+    
+  },
+  "window.zoomLevel": 0
+}

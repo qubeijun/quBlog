@@ -13,21 +13,22 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Love', link: '/love/' },
+      { text: '100 DAYS - 100 PROJECTS CHALLENGE', link: '/chanllenge/' },
       { text: 'GitHub', link: 'https://github.com/qubeijun' }
     ],
     sidebar: {
       '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: true,
-          children: [
-            '',
-            'skos组成',
-            'skos-xl',
-          ],
-        },
+        '',
+        'skos组成',
+        'skos-xl',
+      ],
+      '/love/': [
+        '',
+      ],
+      '/chanllenge/': [
+        '',
+        'Bin2Dec',
       ],
     }, // 侧边栏配置
-    sidebarDepth: 2, // 侧边栏显示2级
   }
 };

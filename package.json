@@ -9,9 +9,14 @@
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.5.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.13.2",
+    "vue": "^2.6.10",
+    "vuepress": "^1.5.0"
+  }
 }

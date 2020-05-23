@@ -58,7 +58,9 @@ SKOS词汇：
 
     skos:Concept(概念)
     
-    SKOS使用skos:Concept类来声明特定资源是一个概念。先通过创建（或再利用）一个统一资源标识符（URI）来唯一标识概念；然后通过RDF声明，用这个URI标识的资源是一种类型的概念。
+    SKOS使用skos:Concept类来声明特定资源是一个概念。
+    先通过创建（或再利用）一个统一资源标识符（URI）来唯一标识概念；
+    然后通过RDF声明，用这个URI标识的资源是一种类型的概念。
 
 示例：
 
@@ -75,3 +77,83 @@ SKOS词汇：
 可将MARC记录中“001 记录控制号”转化成HTTP协议下的URI资源，作为概念的唯一标识。MARC记录包括的其他字段在后面SKOS词汇中分别说明。
 
 ### 2.概念体系
+
+SKOS词汇：
+
+    （1）skos:ConceptScheme(概念体系)
+    （2）skos:inScheme(在概念体系中)
+    （3）skos:hasTopConcept(最高概念是)
+    （4）skos:topConceptOf(是···的最高概念)
+含义说明：
+
+    （1）skos:ConceptScheme(概念体系)
+    skos:ConceptScheme类用来表示叙词表、分类表、标题表、或其他知识组织系统。
+
+    示例：
+    主题词表
+    <http://id_cct.nlc.gov.cn/thesaurus>rdf:type skos:ConceptScheme.
+    为所有人名主题词建立的概念表
+    <http://id_cct.nlc.gov.cn/personalNamesthesaurus>rdf:type skos:ConceptScheme.
+    分类法主表
+    <http://id_cct.nlc.gov.cn/classification_maintable>rdf:type skos:ConceptScheme.
+    为所有说明类建立的概念表
+    <http://id_cct.nlc.gov.cn/classification_illustrativeEntry>rdf:type skos:ConceptScheme.
+-
+
+    （2）skos:inScheme(在概念体系中)
+    一旦创建了概念体系(skos:ConceptScheme)资源，就可以通过skos:inScheme属性链接其包含的概念(skos:Concept)。
+
+    示例：
+    “交响曲”在CCT的主题词表中。
+    <http://id_cct.nlc.gov.cn/thesaurus/S038576>skos:inScheme<http://id_cct.nlc.gov.cn/thesaurus>.
+    “鲁迅(1881-1936)”在人名主题词概念表中。
+    <http://id_cct.nlc.gov.cn/thesaurus/S049224>skos:inScheme<http://id_cct.nlc.gov.cn/personalNamesthesaurus>.
+    “B哲学、宗教”在CCT的分类法主表中。
+    <http://id_cct.nlc.gov.cn/classification_maintable/C000158>skos:inScheme<http://id_cct.nlc.gov.cn/classification_maintable>.
+    “A1/49(特殊分类规定)”在CCT的分类法的所有说明类概念表中。
+    <http://id_cct.nlc.gov.cn/classification_maintable/C000002>skos:inScheme<http://id_cct.nlc.gov.cn/classification_illustrativeEntry>.
+-
+
+    （3）skos:hasTopConcept(最高概念是)
+    skos:hasTopConcept属性，用于链接一个概念体系(skos:ConceptScheme)与等级关系中最高层的SKOS概念，提供一个有效获取上位/下位概念等级的入口点。
+
+    示例：
+    主题词表有最高概念“乐曲”。
+    <http://id_cct.nlc.gov.cn/thesaurus>skos:hasTopConcept<http://id_cct.nlc.gov.cn/thesaurus/S092154>.
+    分类法主表有最高概念“B哲学、宗教”。
+    <http://id_cct.nlc.gov.cn/classification_maintable>skos:hasTopConcept<http://id_cct.nlc.gov.cn/classification_maintable/C000158>
+-
+
+    （4）skos:topConceptOf(是···的最高概念)
+    skos:topConceptOf属性是skos:hasTopConcept的互逆属性，用于链接等级关系中最高层的SKOS概念与一个概念体系(skos:ConceptScheme)。
+
+    示例：
+    “乐曲”是主题词表的最高概念。
+    <http://id_cct.nlc.gov.cn/thesaurus/S092154>skos:topConceptOf<http://id_cct.nlc.gov.cn/thesaurus>.
+    “B哲学、宗教”是分类法的最高概念。
+    <http://id_cct.nlc.gov.cn/classification_maintable/C000158>skos:topConceptOf<http://id_cct.nlc.gov.cn/classification_maintable>.
+
+与词表对应情况：
+
+(1)skos:ConceptScheme(概念体系)：
+
+- 对应主题词表。包括各种类型主题词表。
+- 对应分类表。《中图法》的主表、各个复分表需分别对应一个skos:ConceptScheme。包括所有说明类组成的概念表。
+
+(2)skos:inScheme(在概念体系中)：
+
+- 对应主题词与主题词表的关系。
+- 对应类目与分类体系的关系。
+skos:Concept(概念)通过skos:inScheme(在概念体系中)属性同其所属的skos:ConceptScheme(概念体系)相联。
+
+(3)skos:hasTopConcept(最高概念是)：
+
+- 对应主题词表与族首词的关系。
+- 对应分类体系与一级大类的关系。
+skos:ConceptScheme(概念体系)通过skos:hasTopConcept(最高概念是)属性同词表中族首词所对应的skos:Concept(概念)相联。
+
+(4)skos:topConceptOf(是···的最高概念)：
+
+- 对应族首词与主题词表关系。
+- 对应一级大类与分类体系关系。
+族首词所对应的skos:Concept(概念)，通过skos:topConceptOf(是···的最高概念)属性同其所属的skos:ConceptScheme(概念体系)相联。
