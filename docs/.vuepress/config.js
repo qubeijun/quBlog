@@ -27,7 +27,8 @@ module.exports = {
       ],
       '/chanllenge/': [
         '',
-        'Bin2Dec',
+        '1、Bin2Dec',
+        '6、ColorCycle',
       ],
     }, // 侧边栏配置
   }

@@ -1,5 +1,4 @@
-## Bin2Dec
+## 1、Bin2Dec
 ### Binary-to-Decimal number converter
-
 
 <Bin2Dec></Bin2Dec>
