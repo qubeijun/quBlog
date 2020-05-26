@@ -9,13 +9,10 @@
 <script>
 export default {
   data () {
-    return {
-    }
+    return {}
   },
-  mounted: function() {
-  },
-  methods:{
-  }
+  mounted: function() {},
+  methods:{}
 }
 </script>
 

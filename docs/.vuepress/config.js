@@ -27,8 +27,10 @@ module.exports = {
       ],
       '/chanllenge/': [
         '',
-        '1、Bin2Dec',
-        '6、ColorCycle',
+        '1.Bin2Dec',
+        '2.BorderRadiusPreviewer',
+        '4.ChristmasLights.md',
+        '6.ColorCycle',
       ],
     }, // 侧边栏配置
   }

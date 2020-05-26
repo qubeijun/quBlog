@@ -26,7 +26,7 @@ export default {
             callback()
           }          
         } else if (list[i] !== 1 && list[i] !== 0){
-          callback(new Error('Enter either 0 or 1'));
+          callback(new Error('Enter either 0 or 1'))
         }
       }
     }
@@ -36,10 +36,9 @@ export default {
         output: 0
       },
       rules: {input: [{ validator: inputvalidatePass, trigger: 'blur'  }]}
-      }
+    }
   },
-  mounted: function() {
-  },
+  mounted: function() {},
   methods:{
     b2d(value) {
       var list = value.split('').map(Number)
@@ -54,14 +53,14 @@ export default {
       this.formItem.output = 0
       this.$refs[formName].validate((valid) => {
         if (valid) {
-          console.log('submit!');
+          console.log('submit!')
           this.b2d(this.formItem.input)
         } else {
-          console.log('error submit!!');
-          return false;
+          console.log('error submit!!')
+          return false
         }
-      });
-    },
+      })
+    }
   }
 }
 </script>
