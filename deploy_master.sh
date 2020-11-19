@@ -4,4 +4,4 @@ git push
 
 cd -
 
-pause
+exec /bin/bash

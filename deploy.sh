@@ -24,4 +24,4 @@ git push -f git@github.com:qubeijun/quBlog.git master:gh-pages
 
 cd -
 
-pause
+exec /bin/bash
