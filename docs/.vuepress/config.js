@@ -13,6 +13,7 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Love', link: '/love/' },
+      { text: 'VueTest', link: '/vuetest/' },
       { text: '100 DAYS - 100 PROJECTS CHALLENGE', link: '/chanllenge/' },
       { text: 'GitHub', link: 'https://github.com/qubeijun' }
     ],
@@ -25,11 +26,15 @@ module.exports = {
       '/love/': [
         '',
       ],
+      '/vuetest/': [
+        '',
+        'VueTest',
+      ],
       '/chanllenge/': [
         '',
         '1.Bin2Dec',
         '2.BorderRadiusPreviewer',
-        '4.ChristmasLights.md',
+        '4.ChristmasLights',
         '6.ColorCycle',
       ],
     }, // 侧边栏配置
