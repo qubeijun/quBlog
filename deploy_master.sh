@@ -3,3 +3,5 @@ git commit -m 'init'
 git push
 
 cd -
+
+pause

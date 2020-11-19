@@ -23,3 +23,5 @@ git push -f git@github.com:qubeijun/quBlog.git master:gh-pages
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 cd -
+
+pause
