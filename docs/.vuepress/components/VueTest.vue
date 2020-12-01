@@ -36,10 +36,56 @@
     </p>
     <h2>指令</h2>
     <h3>参数</h3>
-    <a v-bind:href="url">百度</a>
-    <el-tag effect="dark">v-bind:href="url"</el-tag>
-    <a v-on:click="doSomething">doSomething</a>
-    <el-tag effect="dark">v-on:click="doSomething"</el-tag>
+    <p>
+      <a v-bind:href="url">百度</a>
+      <el-tag effect="dark">v-bind:href="url"</el-tag>
+    </p>
+    <p>
+      <a v-on:click="doSomething">doSomething</a>
+      <el-tag effect="dark">v-on:click="doSomething"</el-tag>
+    </p>
+    <h3>动态参数</h3>
+    <p>
+      <a v-bind:[attributeName]="url">百度</a>
+      <el-tag effect="dark">
+        v-bind:[attributeName]="url"--->attributeName: 'href'
+      </el-tag>
+    </p>
+    <p>
+      <a v-on:[eventName]="doSomething">doSomething</a>
+      <el-tag effect="dark">
+        v-on:[eventName]="doSomething"--->eventName: 'click'
+      </el-tag>
+    </p>
+    <h3>修饰符</h3>
+    <el-button v-on:click.prevent="onSubmit">onSubmit</el-button>
+    <h2>缩写</h2>
+    <h3>v-bind缩写</h3>
+    <p>
+      <a v-bind:href="url">百度</a>
+      <el-tag effect="dark">v-bind:href="url"</el-tag>
+    </p>
+    <p>
+      <a :href="url">百度</a>
+      <el-tag effect="dark">:href="url"</el-tag>
+    </p>
+    <p>
+      <a :[attributeName]="url">百度</a>
+      <el-tag effect="dark">:[attributeName]="url"</el-tag>
+    </p>
+    <h3>v-on缩写</h3>
+    <p>
+      <a v-on:click="doSomething">doSomething</a>
+      <el-tag effect="dark">v-on:click="doSomething"</el-tag>
+    </p>
+    <p>
+      <a @click="doSomething">doSomething</a>
+      <el-tag effect="dark">@click="doSomething"</el-tag>
+    </p>
+    <p>
+      <a @[eventName]="doSomething">doSomething</a>
+      <el-tag effect="dark">@[eventName]="doSomething"</el-tag>
+    </p>
   </div>
 </template>
 
@@ -56,7 +102,9 @@ export default {
       number: 10000,
       ok: true,
       id: 201907249025,
-      url: 'http://www.baidu.com'
+      url: 'http://www.baidu.com',
+      attributeName: 'href',
+      eventName: 'click'
     }
   },
   mounted:function () { },
@@ -70,6 +118,9 @@ export default {
     },
     doSomething() {
       alert('doSomething')
+    },
+    onSubmit() {
+      alert('onSubmit')
     }
   }
 }
