@@ -13,8 +13,9 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Love', link: '/love/' },
+      { text: 'Wedding', link: '/wedding/' },
       { text: 'VueTest', link: '/vuetest/' },
-      { text: '100 DAYS - 100 PROJECTS CHALLENGE', link: '/chanllenge/' },
+      { text: '100 DAYS', link: '/chanllenge/' },
       { text: 'GitHub', link: 'https://github.com/qubeijun' }
     ],
     sidebar: {

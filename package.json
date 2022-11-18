@@ -21,9 +21,14 @@
   "license": "ISC",
   "dependencies": {
     "element-ui": "^2.13.2",
+    "less": "^3.9.0",
+    "less-loader": "^4.0.5",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.10",
+    "vue-confetti": "^2.3.0",
+    "vue-styled-components": "^1.6.0",
+    "vue-typed-js": "^0.1.2",
     "vuepress": "^1.5.0"
   }
 }

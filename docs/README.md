@@ -2,7 +2,7 @@
 home: true
 heroImage: /avatar.jpg
 actionText: TODO →
-actionLink: /guide/
+actionLink: /wedding/
 features:
   - title:
     details: 把所有的不快给昨天
