@@ -1,1 +1,3 @@
-<Wedding></Wedding>
+<ClientOnly>
+  <Wedding/>
+</ClientOnly>

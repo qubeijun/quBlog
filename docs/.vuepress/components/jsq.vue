@@ -43,7 +43,6 @@ export default {
   methods: {
     //倒计时
     countdowm(timestamp) {
-      let self = this
       let timer = setInterval(function () {
         let nowTime = new Date()
         let endTime = new Date(timestamp * 1000)
@@ -66,16 +65,15 @@ export default {
           if (day <= 0 && hour <= 0) {
             format = `${min}分${sec}秒`
           }
-          self.content = format
+          this.content = format
         } else {
           clearInterval(timer)
-          self.content = self.endText
+          this.content = this.endText
         }
       }, 1000)
     },
     //累计增加计时器
     timer(timestamp) {
-      let self = this
       let timer = setInterval(function () {
         let nowTime = new Date(timestamp)
         let endTime = new Date()
@@ -99,10 +97,10 @@ export default {
           if (day <= 0 && hour <= 0) {
             format = `${min}分${sec}秒`
           }
-          self.content = format
+          this.content = format
         } else {
           clearInterval(timer)
-          self.content = self.endText
+          this.content = this.endText
         }
       }, 1000)
     },

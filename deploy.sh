@@ -22,6 +22,9 @@ git push -f git@github.com:qubeijun/quBlog.git master:gh-pages
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-cd -
+# cd -
 
-exec /bin/bash
+echo 按任意键继续
+read -n 1
+echo 继续运行
+sleep 10000

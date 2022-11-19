@@ -27,11 +27,6 @@
 
 <script>
 import timer from './jsq'
-import Vue from 'vue'
-import VueConfetti from 'vue-confetti'
-import VueTypedJs from 'vue-typed-js'
-Vue.use(VueTypedJs)
-Vue.use(VueConfetti)
 export default {
   components: {
     timer
