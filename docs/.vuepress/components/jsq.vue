@@ -15,7 +15,7 @@ export default {
   props: {
 	  // 时间戳
     startTime: {
-      type: String,
+      type: Number,
       default: '',
     },
    	  // 时间戳
@@ -43,6 +43,7 @@ export default {
   methods: {
     //倒计时
     countdowm(timestamp) {
+      let self = this
       let timer = setInterval(function () {
         let nowTime = new Date()
         let endTime = new Date(timestamp * 1000)
@@ -65,15 +66,16 @@ export default {
           if (day <= 0 && hour <= 0) {
             format = `${min}分${sec}秒`
           }
-          this.content = format
+          self.content = format
         } else {
           clearInterval(timer)
-          this.content = this.endText
+          self.content = self.endText
         }
       }, 1000)
     },
     //累计增加计时器
     timer(timestamp) {
+      let self = this
       let timer = setInterval(function () {
         let nowTime = new Date(timestamp)
         let endTime = new Date()
@@ -97,10 +99,10 @@ export default {
           if (day <= 0 && hour <= 0) {
             format = `${min}分${sec}秒`
           }
-          this.content = format
+          self.content = format
         } else {
           clearInterval(timer)
-          this.content = this.endText
+          self.content = self.endText
         }
       }, 1000)
     },

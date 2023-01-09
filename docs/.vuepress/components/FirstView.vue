@@ -33,7 +33,7 @@ export default {
   },
   data () {
     return {
-      starttime: String.toString(new Date(2022, 9, 5, 0, 0, 0).getTime()),
+      starttime: new Date(2022, 8, 5, 0, 0, 0).getTime(),
       typingTexts: [
         '我们<strong>相遇</strong>',
         '我们<strong>相知</strong>',
@@ -61,7 +61,7 @@ export default {
     max-width: 2200px;
     margin: auto;
     height: 100vh;
-    background-image: url("../assets/imgs/lingzheng.jpg");
+    background-image: url("https://s1.ax1x.com/2023/01/06/pSEEkAs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

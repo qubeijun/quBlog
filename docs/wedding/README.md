@@ -1,3 +1,3 @@
 <ClientOnly>
-  <Wedding/>
+  <Main/>
 </ClientOnly>

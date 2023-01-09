@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
@@ -23,6 +23,7 @@
     "element-ui": "^2.13.2",
     "less": "^3.9.0",
     "less-loader": "^4.0.5",
+    "lightgallery-vue": "0.0.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.10",

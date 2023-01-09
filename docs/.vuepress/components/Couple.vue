@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import '../assets/main.css'
 import SectionTitle from './SectionTitle'
 export default {
   components: {
@@ -69,13 +70,13 @@ export default {
         background-position: center;
         overflow: hidden;
         &.boy {
-          background-image: url("../assets/imgs/left.jpg"),
+          background-image: url("https://s1.ax1x.com/2023/01/06/pSEEANn.jpg"),
             url("../assets/imgs/frame.png");
           background-size: 75%, 100%;
           background-position-y: 5px;
         }
         &.girl {
-          background-image: url("../assets/imgs/right.jpg"),
+          background-image: url("https://s1.ax1x.com/2023/01/06/pSEEi7j.jpg"),
             url("../assets/imgs/frame.png");
         }
         img {
