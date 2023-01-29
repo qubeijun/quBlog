@@ -7,15 +7,12 @@
         <ul class="items">
           <li class="item">
             <span class="label">时间</span>
-            <span class="txt">2021.09.14 12:00（一晚）</span>
+            <span class="txt">2022.10.04 12:00（一晚）</span>
           </li>
           <li class="item">
             <span class="label">地点</span>
             <div class="txt loc">
-              <span>山东省聊城开发区格林东方酒店</span>
-              <a class="map">
-                <img src="{Map2Image}" alt="map" />
-              </a>
+              <span>沈阳市铁西区天丰国际酒店</span>
             </div>
           </li>
         </ul>
@@ -25,15 +22,12 @@
         <ul class="items">
           <li class="item">
             <span class="label">时间</span>
-            <span class="txt">2021.09.15 11:00 - 14:00</span>
+            <span class="txt">2022.10.05 10:58 - 12:00</span>
           </li>
           <li class="item">
             <span class="label">地点</span>
             <div class="txt loc">
-              <span>山东省聊城冠县柳林镇 武风文韵小区</span>
-              <a class="map">
-                <img src="{Map1Image}" alt="map" />
-              </a>
+              <span>沈阳市铁西区天丰国际酒店</span>
             </div>
           </li>
         </ul>
@@ -63,11 +57,12 @@ export default {
   z-index: 1;
   position: relative;
   width: 100%;
+  height: 780px;
   margin: auto;
   max-width: 1800px;
   background-color: #fff;
   padding: 0.3rem 0;
-  background: url("../assets/imgs/lingzheng.jpg");
+  background: url("https://s1.ax1x.com/2023/01/06/pSEEkAs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -82,7 +77,6 @@ export default {
     }
     .box {
       min-height: 4.4rem;
-      width: 4rem;
       background-color: rgba(2, 2, 2, 0.5);
       z-index: 9;
       color: #fff;

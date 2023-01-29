@@ -33,6 +33,7 @@ export default {
   padding: 0.3rem 0 1rem 0;
   .wrapper {
     width: 100%;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +124,7 @@ export default {
         top: 50%;
         left: 50%;
         transform: translate3d(-50%, -50%, 0);
-        font-size: 0.8rem;
+        font-size: 80px;
         padding: 0.1rem 0.3rem;
       }
       background: linear-gradient(145deg, #ca3d27, #ca0d00);

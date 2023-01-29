@@ -1,5 +1,5 @@
 <template>
-  <div class="StyledWrapper">{{ title }}</div>
+  <div class="StyledTitle">{{ title }}</div>
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped lang='less'>
-.StyledWrapper {
+.StyledTitle {
   font-family: "SP-F";
   font-weight: 800;
   z-index: 998;

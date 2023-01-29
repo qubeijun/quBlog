@@ -4,16 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\neusoft\\exercise\\vue\\quBlog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "E:\\neusoft\\exercise\\vue\\quBlog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-77eec519",
+    name: "v-316652b8",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-77eec519").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-316652b8").then(next)
     },
   },
   {
@@ -21,75 +21,35 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-5d39709a",
-    path: "/chanllenge/1.Bin2Dec.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5d39709a").then(next)
-    },
-  },
-  {
-    name: "v-63d09a9e",
-    path: "/chanllenge/2.BorderRadiusPreviewer.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-63d09a9e").then(next)
-    },
-  },
-  {
-    name: "v-7614e4dd",
+    name: "v-61bf9f44",
     path: "/chanllenge/4.ChristmasLights.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7614e4dd").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-61bf9f44").then(next)
     },
   },
   {
-    name: "v-3d4c4d6f",
-    path: "/chanllenge/6.ColorCycle.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3d4c4d6f").then(next)
-    },
-  },
-  {
-    name: "v-2dd8949c",
-    path: "/chanllenge/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2dd8949c").then(next)
-    },
-  },
-  {
-    path: "/chanllenge/index.html",
-    redirect: "/chanllenge/"
-  },
-  {
-    name: "v-1cd289a8",
-    path: "/guide/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1cd289a8").then(next)
-    },
-  },
-  {
-    path: "/guide/index.html",
-    redirect: "/guide/"
-  },
-  {
-    name: "v-54b1a656",
+    name: "v-8e5a3fd4",
     path: "/guide/skos-xl.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-54b1a656").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-8e5a3fd4").then(next)
     },
   },
   {
-    name: "v-5d010c1d",
+    name: "v-fcde769c",
+    path: "/chanllenge/2.BorderRadiusPreviewer.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fcde769c").then(next)
+    },
+  },
+  {
+    name: "v-14ed799e",
     path: "/guide/skos%E7%BB%84%E6%88%90.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5d010c1d").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-14ed799e").then(next)
     },
   },
   {
@@ -97,11 +57,39 @@ export const routes = [
     redirect: "/guide/skos%E7%BB%84%E6%88%90.html"
   },
   {
-    name: "v-12c07efc",
+    name: "v-ed609598",
+    path: "/chanllenge/1.Bin2Dec.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ed609598").then(next)
+    },
+  },
+  {
+    name: "v-0376d630",
+    path: "/chanllenge/6.ColorCycle.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0376d630").then(next)
+    },
+  },
+  {
+    name: "v-7e83d24b",
+    path: "/guide/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7e83d24b").then(next)
+    },
+  },
+  {
+    path: "/guide/index.html",
+    redirect: "/guide/"
+  },
+  {
+    name: "v-13f6d1db",
     path: "/love/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-12c07efc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-13f6d1db").then(next)
     },
   },
   {
@@ -109,36 +97,48 @@ export const routes = [
     redirect: "/love/"
   },
   {
-    name: "v-0f9f3274",
-    path: "/vuetest/",
+    name: "v-6b72de0a",
+    path: "/chanllenge/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0f9f3274").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6b72de0a").then(next)
     },
   },
   {
-    path: "/vuetest/index.html",
-    redirect: "/vuetest/"
+    path: "/chanllenge/index.html",
+    redirect: "/chanllenge/"
   },
   {
-    name: "v-75ac61f5",
+    name: "v-ad4ae694",
     path: "/vuetest/VueTest.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-75ac61f5").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ad4ae694").then(next)
     },
   },
   {
-    name: "v-5e23b3fc",
+    name: "v-1b3bb8ca",
     path: "/wedding/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5e23b3fc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-1b3bb8ca").then(next)
     },
   },
   {
     path: "/wedding/index.html",
     redirect: "/wedding/"
+  },
+  {
+    name: "v-b844bbda",
+    path: "/vuetest/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b844bbda").then(next)
+    },
+  },
+  {
+    path: "/vuetest/index.html",
+    redirect: "/vuetest/"
   },
   {
     path: '*',

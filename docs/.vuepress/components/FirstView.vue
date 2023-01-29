@@ -33,7 +33,7 @@ export default {
   },
   data () {
     return {
-      starttime: new Date(2022, 8, 5, 0, 0, 0).getTime(),
+      starttime: new Date(2022, 9, 5, 0, 0, 0).getTime(),
       typingTexts: [
         '我们<strong>相遇</strong>',
         '我们<strong>相知</strong>',

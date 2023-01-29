@@ -40,55 +40,15 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-77eec519",
+      "key": "v-316652b8",
       "path": "/"
-    },
-    {
-      "title": "1.Bin2Dec",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/1.Bin2Dec.html",
-      "relativePath": "chanllenge/1.Bin2Dec.md",
-      "key": "v-5d39709a",
-      "path": "/chanllenge/1.Bin2Dec.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1.Bin2Dec",
-          "slug": "_1-bin2dec"
-        },
-        {
-          "level": 3,
-          "title": "Binary-to-Decimal number converter",
-          "slug": "binary-to-decimal-number-converter"
-        }
-      ]
-    },
-    {
-      "title": "2.Border Radius Previewer",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/2.BorderRadiusPreviewer.html",
-      "relativePath": "chanllenge/2.BorderRadiusPreviewer.md",
-      "key": "v-63d09a9e",
-      "path": "/chanllenge/2.BorderRadiusPreviewer.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "2.Border Radius Previewer",
-          "slug": "_2-border-radius-previewer"
-        },
-        {
-          "level": 3,
-          "title": "Preview how CSS3 border-radius values affect an element",
-          "slug": "preview-how-css3-border-radius-values-affect-an-element"
-        }
-      ]
     },
     {
       "title": "4.Christmas Lights",
       "frontmatter": {},
       "regularPath": "/chanllenge/4.ChristmasLights.html",
       "relativePath": "chanllenge/4.ChristmasLights.md",
-      "key": "v-7614e4dd",
+      "key": "v-61bf9f44",
       "path": "/chanllenge/4.ChristmasLights.html",
       "headers": [
         {
@@ -104,71 +64,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "6.ColorCycle",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/6.ColorCycle.html",
-      "relativePath": "chanllenge/6.ColorCycle.md",
-      "key": "v-3d4c4d6f",
-      "path": "/chanllenge/6.ColorCycle.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "6.ColorCycle",
-          "slug": "_6-colorcycle"
-        },
-        {
-          "level": 3,
-          "title": "Cycle a color value through incremental changes",
-          "slug": "cycle-a-color-value-through-incremental-changes"
-        }
-      ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/",
-      "relativePath": "chanllenge/README.md",
-      "key": "v-2dd8949c",
-      "path": "/chanllenge/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "me",
-          "slug": "me"
-        }
-      ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-1cd289a8",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "me",
-          "slug": "me"
-        }
-      ]
-    },
-    {
       "title": "附录B.SKOS标签扩展（SKOS-XL）",
       "frontmatter": {},
       "regularPath": "/guide/skos-xl.html",
       "relativePath": "guide/skos-xl.md",
-      "key": "v-54b1a656",
+      "key": "v-8e5a3fd4",
       "path": "/guide/skos-xl.html",
       "headers": [
         {
@@ -234,11 +134,31 @@ export const siteData = {
       ]
     },
     {
+      "title": "2.Border Radius Previewer",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/2.BorderRadiusPreviewer.html",
+      "relativePath": "chanllenge/2.BorderRadiusPreviewer.md",
+      "key": "v-fcde769c",
+      "path": "/chanllenge/2.BorderRadiusPreviewer.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "2.Border Radius Previewer",
+          "slug": "_2-border-radius-previewer"
+        },
+        {
+          "level": 3,
+          "title": "Preview how CSS3 border-radius values affect an element",
+          "slug": "preview-how-css3-border-radius-values-affect-an-element"
+        }
+      ]
+    },
+    {
       "title": "SKOS组成",
       "frontmatter": {},
       "regularPath": "/guide/skos%E7%BB%84%E6%88%90.html",
       "relativePath": "guide/skos组成.md",
-      "key": "v-5d010c1d",
+      "key": "v-14ed799e",
       "path": "/guide/skos%E7%BB%84%E6%88%90.html",
       "headers": [
         {
@@ -264,11 +184,71 @@ export const siteData = {
       ]
     },
     {
+      "title": "1.Bin2Dec",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/1.Bin2Dec.html",
+      "relativePath": "chanllenge/1.Bin2Dec.md",
+      "key": "v-ed609598",
+      "path": "/chanllenge/1.Bin2Dec.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.Bin2Dec",
+          "slug": "_1-bin2dec"
+        },
+        {
+          "level": 3,
+          "title": "Binary-to-Decimal number converter",
+          "slug": "binary-to-decimal-number-converter"
+        }
+      ]
+    },
+    {
+      "title": "6.ColorCycle",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/6.ColorCycle.html",
+      "relativePath": "chanllenge/6.ColorCycle.md",
+      "key": "v-0376d630",
+      "path": "/chanllenge/6.ColorCycle.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "6.ColorCycle",
+          "slug": "_6-colorcycle"
+        },
+        {
+          "level": 3,
+          "title": "Cycle a color value through incremental changes",
+          "slug": "cycle-a-color-value-through-incremental-changes"
+        }
+      ]
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-7e83d24b",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "me",
+          "slug": "me"
+        }
+      ]
+    },
+    {
       "title": "Love",
       "frontmatter": {},
       "regularPath": "/love/",
       "relativePath": "love/README.md",
-      "key": "v-12c07efc",
+      "key": "v-13f6d1db",
       "path": "/love/",
       "headers": [
         {
@@ -281,10 +261,10 @@ export const siteData = {
     {
       "title": "关于我",
       "frontmatter": {},
-      "regularPath": "/vuetest/",
-      "relativePath": "vuetest/README.md",
-      "key": "v-0f9f3274",
-      "path": "/vuetest/",
+      "regularPath": "/chanllenge/",
+      "relativePath": "chanllenge/README.md",
+      "key": "v-6b72de0a",
+      "path": "/chanllenge/",
       "headers": [
         {
           "level": 2,
@@ -303,7 +283,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/vuetest/VueTest.html",
       "relativePath": "vuetest/VueTest.md",
-      "key": "v-75ac61f5",
+      "key": "v-ad4ae694",
       "path": "/vuetest/VueTest.html",
       "headers": [
         {
@@ -317,8 +297,28 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/wedding/",
       "relativePath": "wedding/README.md",
-      "key": "v-5e23b3fc",
+      "key": "v-1b3bb8ca",
       "path": "/wedding/"
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/vuetest/",
+      "relativePath": "vuetest/README.md",
+      "key": "v-b844bbda",
+      "path": "/vuetest/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "me",
+          "slug": "me"
+        }
+      ]
     }
   ],
   "themeConfig": {
