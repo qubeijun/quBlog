@@ -44,6 +44,66 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "1.Bin2Dec",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/1.Bin2Dec.html",
+      "relativePath": "chanllenge/1.Bin2Dec.md",
+      "key": "v-ed609598",
+      "path": "/chanllenge/1.Bin2Dec.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.Bin2Dec",
+          "slug": "_1-bin2dec"
+        },
+        {
+          "level": 3,
+          "title": "Binary-to-Decimal number converter",
+          "slug": "binary-to-decimal-number-converter"
+        }
+      ]
+    },
+    {
+      "title": "6.ColorCycle",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/6.ColorCycle.html",
+      "relativePath": "chanllenge/6.ColorCycle.md",
+      "key": "v-0376d630",
+      "path": "/chanllenge/6.ColorCycle.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "6.ColorCycle",
+          "slug": "_6-colorcycle"
+        },
+        {
+          "level": 3,
+          "title": "Cycle a color value through incremental changes",
+          "slug": "cycle-a-color-value-through-incremental-changes"
+        }
+      ]
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-7e83d24b",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "me",
+          "slug": "me"
+        }
+      ]
+    },
+    {
       "title": "4.Christmas Lights",
       "frontmatter": {},
       "regularPath": "/chanllenge/4.ChristmasLights.html",
@@ -154,6 +214,41 @@ export const siteData = {
       ]
     },
     {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/",
+      "relativePath": "chanllenge/README.md",
+      "key": "v-6b72de0a",
+      "path": "/chanllenge/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "me",
+          "slug": "me"
+        }
+      ]
+    },
+    {
+      "title": "Love",
+      "frontmatter": {},
+      "regularPath": "/love/",
+      "relativePath": "love/README.md",
+      "key": "v-13f6d1db",
+      "path": "/love/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Love",
+          "slug": "love"
+        }
+      ]
+    },
+    {
       "title": "SKOS组成",
       "frontmatter": {},
       "regularPath": "/guide/skos%E7%BB%84%E6%88%90.html",
@@ -184,99 +279,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "1.Bin2Dec",
       "frontmatter": {},
-      "regularPath": "/chanllenge/1.Bin2Dec.html",
-      "relativePath": "chanllenge/1.Bin2Dec.md",
-      "key": "v-ed609598",
-      "path": "/chanllenge/1.Bin2Dec.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1.Bin2Dec",
-          "slug": "_1-bin2dec"
-        },
-        {
-          "level": 3,
-          "title": "Binary-to-Decimal number converter",
-          "slug": "binary-to-decimal-number-converter"
-        }
-      ]
-    },
-    {
-      "title": "6.ColorCycle",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/6.ColorCycle.html",
-      "relativePath": "chanllenge/6.ColorCycle.md",
-      "key": "v-0376d630",
-      "path": "/chanllenge/6.ColorCycle.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "6.ColorCycle",
-          "slug": "_6-colorcycle"
-        },
-        {
-          "level": 3,
-          "title": "Cycle a color value through incremental changes",
-          "slug": "cycle-a-color-value-through-incremental-changes"
-        }
-      ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-7e83d24b",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "me",
-          "slug": "me"
-        }
-      ]
-    },
-    {
-      "title": "Love",
-      "frontmatter": {},
-      "regularPath": "/love/",
-      "relativePath": "love/README.md",
-      "key": "v-13f6d1db",
-      "path": "/love/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Love",
-          "slug": "love"
-        }
-      ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/",
-      "relativePath": "chanllenge/README.md",
-      "key": "v-6b72de0a",
-      "path": "/chanllenge/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "me",
-          "slug": "me"
-        }
-      ]
+      "regularPath": "/wedding/",
+      "relativePath": "wedding/README.md",
+      "key": "v-1b3bb8ca",
+      "path": "/wedding/"
     },
     {
       "title": "VueTest",
@@ -292,13 +299,6 @@ export const siteData = {
           "slug": "vuetest"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/wedding/",
-      "relativePath": "wedding/README.md",
-      "key": "v-1b3bb8ca",
-      "path": "/wedding/"
     },
     {
       "title": "关于我",

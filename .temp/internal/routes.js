@@ -21,42 +21,6 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-61bf9f44",
-    path: "/chanllenge/4.ChristmasLights.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-61bf9f44").then(next)
-    },
-  },
-  {
-    name: "v-8e5a3fd4",
-    path: "/guide/skos-xl.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8e5a3fd4").then(next)
-    },
-  },
-  {
-    name: "v-fcde769c",
-    path: "/chanllenge/2.BorderRadiusPreviewer.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fcde769c").then(next)
-    },
-  },
-  {
-    name: "v-14ed799e",
-    path: "/guide/skos%E7%BB%84%E6%88%90.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-14ed799e").then(next)
-    },
-  },
-  {
-    path: "/guide/skos组成.html",
-    redirect: "/guide/skos%E7%BB%84%E6%88%90.html"
-  },
-  {
     name: "v-ed609598",
     path: "/chanllenge/1.Bin2Dec.html",
     component: GlobalLayout,
@@ -85,16 +49,28 @@ export const routes = [
     redirect: "/guide/"
   },
   {
-    name: "v-13f6d1db",
-    path: "/love/",
+    name: "v-61bf9f44",
+    path: "/chanllenge/4.ChristmasLights.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-13f6d1db").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-61bf9f44").then(next)
     },
   },
   {
-    path: "/love/index.html",
-    redirect: "/love/"
+    name: "v-8e5a3fd4",
+    path: "/guide/skos-xl.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8e5a3fd4").then(next)
+    },
+  },
+  {
+    name: "v-fcde769c",
+    path: "/chanllenge/2.BorderRadiusPreviewer.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-fcde769c").then(next)
+    },
   },
   {
     name: "v-6b72de0a",
@@ -109,12 +85,28 @@ export const routes = [
     redirect: "/chanllenge/"
   },
   {
-    name: "v-ad4ae694",
-    path: "/vuetest/VueTest.html",
+    name: "v-13f6d1db",
+    path: "/love/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ad4ae694").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-13f6d1db").then(next)
     },
+  },
+  {
+    path: "/love/index.html",
+    redirect: "/love/"
+  },
+  {
+    name: "v-14ed799e",
+    path: "/guide/skos%E7%BB%84%E6%88%90.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-14ed799e").then(next)
+    },
+  },
+  {
+    path: "/guide/skos组成.html",
+    redirect: "/guide/skos%E7%BB%84%E6%88%90.html"
   },
   {
     name: "v-1b3bb8ca",
@@ -127,6 +119,14 @@ export const routes = [
   {
     path: "/wedding/index.html",
     redirect: "/wedding/"
+  },
+  {
+    name: "v-ad4ae694",
+    path: "/vuetest/VueTest.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-ad4ae694").then(next)
+    },
   },
   {
     name: "v-b844bbda",

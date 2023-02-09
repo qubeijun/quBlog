@@ -30,15 +30,15 @@ export default {
       items: [
         {
           title: '相遇：幸运施了魔法~',
-          datetime: '2020.05.06',
+          datetime: '2019.10.06',
           desc: `<span>2020年4月底，我在豆瓣发现了她，第一次聊天即线下见面，所以称不上网恋。</span>
           <span>那天我们聊了许久，感觉有说不完的话，不知不觉喝掉好几壶水呢~</span>
           <span>虽然是首次接触，但就像认识了许久，这种熟悉又惊喜的感觉，使我们一点点向彼此靠近。</span>`,
-          picture: `../assets/imgs/1.jpg`
+          picture: `https://s1.ax1x.com/2023/01/29/pSaLqSO.jpg`
         },
         {
           title: '相知：爱情中的模样~',
-          datetime: '2020.05.23',
+          datetime: '2019.11.18',
           desc: `<span>丘比特之箭射中了我们，空气都是甜甜的玉米味儿。</span>
           <span>我们都爱大自然、且喜欢户外。</span>
           <span>我们去永定河旁边的乡间小路探险，漫无目的地边走边玩，落日余晖下的她，真的好美。</span>
@@ -53,11 +53,11 @@ export default {
           <span>我生气起来不爱说话，她生气起来爱飙狠话。</span>
           <span>好在每次吵架我们都能冷静下来及时复盘，并学着去表达自己的感受，然后互相调整。</span>
           <span>好的亲密关系是相处磨合出来的，我们愿意为了彼此去付出爱与精力，并时刻感恩。</span>`,
-          picture: `../assets/imgs/2.jpg`
+          picture: `https://s1.ax1x.com/2023/01/29/pSaOVmj.jpg`
         },
         {
-          title: '相守：心安即是归处',
-          datetime: '2020.06.06',
+          title: '相守：心安即是归处~',
+          datetime: '2022.05.27',
           desc: `<span>不管是租房，还是买房，只要心有所属，哪里就是家。</span>
           <span>我们一起生活后，迫切的需要有自己的小家，自己的厨房</span>
           <span>但问题是老家已有一个买来的住所，何不离京呢？</span>
@@ -68,12 +68,11 @@ export default {
           <span>看到小家一点点变成我们想要的样子，真是发自内心的快乐。</span>
           <span>对于这种突如其来的个人空间，我们沉浸在极大的新鲜感与兴奋感里，无法自拔。</span>
           <span>我经常各个房间晃来晃去，她经常拿着盒尺量来量去，然后不约而同的相视，咯咯傻笑。</span>
-
-          <span>2021年8月23日，我们领证了！</span>
+          <span>2022年5月27日，我们领证了！</span>
           <span>只有那5分钟的紧张激动，很快就恢复平静。</span>
           <span>可能在我心里，我们早就结婚了，这已然成为我们的日常生活。</span>
           <span>我们以后将更珍惜彼此，小心呵护这份难得的感情~ 有福同享、有难同当，齐心协力、共同为我们的美好未来努力！</span>`,
-          picture: `../assets/imgs/3.jpg`
+          picture: `https://s1.ax1x.com/2023/01/29/pSaOZ0s.jpg`
         }
       ]
     }
@@ -111,7 +110,7 @@ export default {
           justify-content: space-between;
           border: 1px solid #eef;
           padding: 0.2rem;
-          border-radius: 0.12rem;
+          border-radius: 10px;
           width: 400px;
           .title {
             font-size: 30px;
@@ -119,7 +118,6 @@ export default {
           .date {
             margin: 0.1rem 0;
             font-style: oblique;
-            font-size: 0.12rem;
             color: #666;
           }
           .desc {
@@ -154,8 +152,8 @@ export default {
             z-index: 8;
             border-radius: 50%;
             border: 3px solid #999;
-            width: 2rem;
-            height: 2rem;
+            width: 200px;
+            height: 200px;
             object-fit: cover;
           }
         }
