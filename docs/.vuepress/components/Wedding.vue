@@ -62,7 +62,7 @@ export default {
   max-width: 1800px;
   background-color: #fff;
   padding: 0.3rem 0;
-  background: url("https://s1.ax1x.com/2023/01/06/pSEEkAs.jpg");
+  background: url("https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/large/9af5bf0dly1hu1zqbem8ej20zj0np74v.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

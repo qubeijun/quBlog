@@ -58,26 +58,26 @@ export default {
         this.catewedding = 'curr'
         this.catedailys = ''
         this.images = []
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjoVA.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjjKg.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjbPP.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjTUI.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUj75t.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjq8f.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjL28.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjOxS.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjvrQ.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/28/pSUjxbj.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/9af5bf0dly1hgxaeupck1j23s051chdx.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/9af5bf0dly1hgxaewvaarj23s051cu11.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/9af5bf0dly1hgxaeyf919j23342bc7wj.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax3.sinaimg.cn/large/9af5bf0dly1hgxaf30yucj22o03k0npf.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/9af5bf0dly1hgxaf8akquj22o03k0e82.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/9af5bf0dly1hgxaf4169dj22o03k0npe.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax3.sinaimg.cn/large/9af5bf0dly1hgxafcc7ogj22o03k0b2b.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/9af5bf0dly1hgxafb3xvzj22o03k0qv6.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/9af5bf0dly1hgxafdaccnj237k2eohdu.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/9af5bf0dly1hgxaf04spcj22eo37kb2b.jpg",thumb:"",subHtml:"caption"})
         console.log(this.images)
       }else{
         this.catewedding = ''
         this.catedailys = 'curr'
         this.images = []
-        this.images.push({src:"https://s1.ax1x.com/2023/01/06/pSEuE4J.png",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/06/pSEukEF.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/06/pSEuPBT.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/06/pSEuAN4.jpg",thumb:"",subHtml:"caption"})
-        this.images.push({src:"https://s1.ax1x.com/2023/01/06/pSEuiHU.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax4.sinaimg.cn/large/9af5bf0dly1hgxafftwnbj20zg1badmm.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/9af5bf0dly1hgxafi9n0pj21qg2lox6q.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/9af5bf0dly1hgxaflepi0j22dc35shdu.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax3.sinaimg.cn/large/9af5bf0dly1hgxafjrtbxj21r42mou0x.jpg",thumb:"",subHtml:"caption"})
+        this.images.push({src:"https://image.baidu.com/search/down?url=https://tvax2.sinaimg.cn/large/9af5bf0dly1hgxafglwizj22bc3344qq.jpg",thumb:"",subHtml:"caption"})
       }
     }
   }

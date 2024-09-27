@@ -16,46 +16,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "1.Bin2Dec",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/1.Bin2Dec.html",
-      "relativePath": "chanllenge/1.Bin2Dec.md",
-      "key": "v-ed609598",
-      "path": "/chanllenge/1.Bin2Dec.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1.Bin2Dec",
-          "slug": "_1-bin2dec"
-        },
-        {
-          "level": 3,
-          "title": "Binary-to-Decimal number converter",
-          "slug": "binary-to-decimal-number-converter"
-        }
-      ]
-    },
-    {
-      "title": "4.Christmas Lights",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/4.ChristmasLights.html",
-      "relativePath": "chanllenge/4.ChristmasLights.md",
-      "key": "v-61bf9f44",
-      "path": "/chanllenge/4.ChristmasLights.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "4.Christmas Lights",
-          "slug": "_4-christmas-lights"
-        },
-        {
-          "level": 3,
-          "title": "Simulate a string of Christmas lights",
-          "slug": "simulate-a-string-of-christmas-lights"
-        }
-      ]
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -104,6 +64,101 @@ export const siteData = {
       ]
     },
     {
+      "title": "1.Bin2Dec",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/1.Bin2Dec.html",
+      "relativePath": "chanllenge/1.Bin2Dec.md",
+      "key": "v-ed609598",
+      "path": "/chanllenge/1.Bin2Dec.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.Bin2Dec",
+          "slug": "_1-bin2dec"
+        },
+        {
+          "level": 3,
+          "title": "Binary-to-Decimal number converter",
+          "slug": "binary-to-decimal-number-converter"
+        }
+      ]
+    },
+    {
+      "title": "4.Christmas Lights",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/4.ChristmasLights.html",
+      "relativePath": "chanllenge/4.ChristmasLights.md",
+      "key": "v-61bf9f44",
+      "path": "/chanllenge/4.ChristmasLights.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "4.Christmas Lights",
+          "slug": "_4-christmas-lights"
+        },
+        {
+          "level": 3,
+          "title": "Simulate a string of Christmas lights",
+          "slug": "simulate-a-string-of-christmas-lights"
+        }
+      ]
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/",
+      "relativePath": "chanllenge/README.md",
+      "key": "v-6b72de0a",
+      "path": "/chanllenge/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "me",
+          "slug": "me"
+        }
+      ]
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-7e83d24b",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "me",
+          "slug": "me"
+        }
+      ]
+    },
+    {
+      "title": "Love",
+      "frontmatter": {},
+      "regularPath": "/love/",
+      "relativePath": "love/README.md",
+      "key": "v-13f6d1db",
+      "path": "/love/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Love",
+          "slug": "love"
+        }
+      ]
+    },
+    {
       "title": "6.ColorCycle",
       "frontmatter": {},
       "regularPath": "/chanllenge/6.ColorCycle.html",
@@ -126,10 +181,10 @@ export const siteData = {
     {
       "title": "关于我",
       "frontmatter": {},
-      "regularPath": "/chanllenge/",
-      "relativePath": "chanllenge/README.md",
-      "key": "v-6b72de0a",
-      "path": "/chanllenge/",
+      "regularPath": "/vuetest/",
+      "relativePath": "vuetest/README.md",
+      "key": "v-b844bbda",
+      "path": "/vuetest/",
       "headers": [
         {
           "level": 2,
@@ -140,6 +195,58 @@ export const siteData = {
           "level": 3,
           "title": "me",
           "slug": "me"
+        }
+      ]
+    },
+    {
+      "title": "VueTest",
+      "frontmatter": {},
+      "regularPath": "/vuetest/VueTest.html",
+      "relativePath": "vuetest/VueTest.md",
+      "key": "v-ad4ae694",
+      "path": "/vuetest/VueTest.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "VueTest",
+          "slug": "vuetest"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/wedding/",
+      "relativePath": "wedding/README.md",
+      "key": "v-1b3bb8ca",
+      "path": "/wedding/"
+    },
+    {
+      "title": "SKOS组成",
+      "frontmatter": {},
+      "regularPath": "/guide/skos%E7%BB%84%E6%88%90.html",
+      "relativePath": "guide/skos组成.md",
+      "key": "v-14ed799e",
+      "path": "/guide/skos%E7%BB%84%E6%88%90.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "SKOS组成",
+          "slug": "skos组成"
+        },
+        {
+          "level": 2,
+          "title": "附录1：SKOS词汇及其与《中分表》对照说明",
+          "slug": "附录1：skos词汇及其与《中分表》对照说明"
+        },
+        {
+          "level": 3,
+          "title": "1.概念类",
+          "slug": "_1-概念类"
+        },
+        {
+          "level": 3,
+          "title": "2.概念体系",
+          "slug": "_2-概念体系"
         }
       ]
     },
@@ -212,113 +319,6 @@ export const siteData = {
           "slug": "b-3-4-notes"
         }
       ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-7e83d24b",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "me",
-          "slug": "me"
-        }
-      ]
-    },
-    {
-      "title": "Love",
-      "frontmatter": {},
-      "regularPath": "/love/",
-      "relativePath": "love/README.md",
-      "key": "v-13f6d1db",
-      "path": "/love/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Love",
-          "slug": "love"
-        }
-      ]
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/vuetest/",
-      "relativePath": "vuetest/README.md",
-      "key": "v-b844bbda",
-      "path": "/vuetest/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "me",
-          "slug": "me"
-        }
-      ]
-    },
-    {
-      "title": "SKOS组成",
-      "frontmatter": {},
-      "regularPath": "/guide/skos%E7%BB%84%E6%88%90.html",
-      "relativePath": "guide/skos组成.md",
-      "key": "v-14ed799e",
-      "path": "/guide/skos%E7%BB%84%E6%88%90.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "SKOS组成",
-          "slug": "skos组成"
-        },
-        {
-          "level": 2,
-          "title": "附录1：SKOS词汇及其与《中分表》对照说明",
-          "slug": "附录1：skos词汇及其与《中分表》对照说明"
-        },
-        {
-          "level": 3,
-          "title": "1.概念类",
-          "slug": "_1-概念类"
-        },
-        {
-          "level": 3,
-          "title": "2.概念体系",
-          "slug": "_2-概念体系"
-        }
-      ]
-    },
-    {
-      "title": "VueTest",
-      "frontmatter": {},
-      "regularPath": "/vuetest/VueTest.html",
-      "relativePath": "vuetest/VueTest.md",
-      "key": "v-ad4ae694",
-      "path": "/vuetest/VueTest.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "VueTest",
-          "slug": "vuetest"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/wedding/",
-      "relativePath": "wedding/README.md",
-      "key": "v-1b3bb8ca",
-      "path": "/wedding/"
     }
   ],
   "themeConfig": {

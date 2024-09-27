@@ -61,7 +61,7 @@ export default {
     max-width: 2200px;
     margin: auto;
     height: 100vh;
-    background-image: url("https://wx4.sinaimg.cn/mw690/9af5bf0dly1hgxasgnz9uj21900u0dmb.jpg");
+    background-image: url("https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/large/9af5bf0dly1hgxasgnz9uj21900u0dmb.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

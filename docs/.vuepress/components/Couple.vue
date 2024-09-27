@@ -70,16 +70,14 @@ export default {
         background-position: center;
         overflow: hidden;
         &.boy {
-          background-image: url("https://wx4.sinaimg.cn/mw690/9af5bf0dly1hgxb6zfzlyj23uw2kle81.jpg"),
+          background-image: url("https://image.baidu.com/search/down?url=https://wx4.sinaimg.cn/mw690/9af5bf0dly1hgxb6zfzlyj23uw2kle81.jpg"),
             url("../assets/imgs/frame.png");
           background-size: 75%, 100%;
-          background-position-y: 5px;
         }
         &.girl {
-          background-image: url("https://wx1.sinaimg.cn/mw690/9af5bf0dly1hgxb705okvj23uw2klb29.jpg"),
+          background-image: url("https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/mw690/9af5bf0dly1hgxb705okvj23uw2klb29.jpg"),
             url("../assets/imgs/frame.png");
           background-size: 75%, 100%;
-          background-position-y: 5px;
         }
         img {
           width: 100%;

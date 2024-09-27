@@ -9,22 +9,6 @@ import GlobalLayout from "E:\\neusoft\\exercise\\vue\\quBlog\\node_modules\\@vue
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-ed609598",
-    path: "/chanllenge/1.Bin2Dec.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ed609598").then(next)
-    },
-  },
-  {
-    name: "v-61bf9f44",
-    path: "/chanllenge/4.ChristmasLights.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-61bf9f44").then(next)
-    },
-  },
-  {
     name: "v-316652b8",
     path: "/",
     component: GlobalLayout,
@@ -45,11 +29,19 @@ export const routes = [
     },
   },
   {
-    name: "v-0376d630",
-    path: "/chanllenge/6.ColorCycle.html",
+    name: "v-ed609598",
+    path: "/chanllenge/1.Bin2Dec.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0376d630").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-ed609598").then(next)
+    },
+  },
+  {
+    name: "v-61bf9f44",
+    path: "/chanllenge/4.ChristmasLights.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-61bf9f44").then(next)
     },
   },
   {
@@ -63,14 +55,6 @@ export const routes = [
   {
     path: "/chanllenge/index.html",
     redirect: "/chanllenge/"
-  },
-  {
-    name: "v-8e5a3fd4",
-    path: "/guide/skos-xl.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-8e5a3fd4").then(next)
-    },
   },
   {
     name: "v-7e83d24b",
@@ -97,6 +81,14 @@ export const routes = [
     redirect: "/love/"
   },
   {
+    name: "v-0376d630",
+    path: "/chanllenge/6.ColorCycle.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0376d630").then(next)
+    },
+  },
+  {
     name: "v-b844bbda",
     path: "/vuetest/",
     component: GlobalLayout,
@@ -107,18 +99,6 @@ export const routes = [
   {
     path: "/vuetest/index.html",
     redirect: "/vuetest/"
-  },
-  {
-    name: "v-14ed799e",
-    path: "/guide/skos%E7%BB%84%E6%88%90.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-14ed799e").then(next)
-    },
-  },
-  {
-    path: "/guide/skos组成.html",
-    redirect: "/guide/skos%E7%BB%84%E6%88%90.html"
   },
   {
     name: "v-ad4ae694",
@@ -139,6 +119,26 @@ export const routes = [
   {
     path: "/wedding/index.html",
     redirect: "/wedding/"
+  },
+  {
+    name: "v-14ed799e",
+    path: "/guide/skos%E7%BB%84%E6%88%90.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-14ed799e").then(next)
+    },
+  },
+  {
+    path: "/guide/skos组成.html",
+    redirect: "/guide/skos%E7%BB%84%E6%88%90.html"
+  },
+  {
+    name: "v-8e5a3fd4",
+    path: "/guide/skos-xl.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8e5a3fd4").then(next)
+    },
   },
   {
     path: '*',
