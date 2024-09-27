@@ -16,6 +16,46 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "1.Bin2Dec",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/1.Bin2Dec.html",
+      "relativePath": "chanllenge/1.Bin2Dec.md",
+      "key": "v-ed609598",
+      "path": "/chanllenge/1.Bin2Dec.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.Bin2Dec",
+          "slug": "_1-bin2dec"
+        },
+        {
+          "level": 3,
+          "title": "Binary-to-Decimal number converter",
+          "slug": "binary-to-decimal-number-converter"
+        }
+      ]
+    },
+    {
+      "title": "4.Christmas Lights",
+      "frontmatter": {},
+      "regularPath": "/chanllenge/4.ChristmasLights.html",
+      "relativePath": "chanllenge/4.ChristmasLights.md",
+      "key": "v-61bf9f44",
+      "path": "/chanllenge/4.ChristmasLights.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "4.Christmas Lights",
+          "slug": "_4-christmas-lights"
+        },
+        {
+          "level": 3,
+          "title": "Simulate a string of Christmas lights",
+          "slug": "simulate-a-string-of-christmas-lights"
+        }
+      ]
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -44,22 +84,22 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "1.Bin2Dec",
+      "title": "2.Border Radius Previewer",
       "frontmatter": {},
-      "regularPath": "/chanllenge/1.Bin2Dec.html",
-      "relativePath": "chanllenge/1.Bin2Dec.md",
-      "key": "v-ed609598",
-      "path": "/chanllenge/1.Bin2Dec.html",
+      "regularPath": "/chanllenge/2.BorderRadiusPreviewer.html",
+      "relativePath": "chanllenge/2.BorderRadiusPreviewer.md",
+      "key": "v-fcde769c",
+      "path": "/chanllenge/2.BorderRadiusPreviewer.html",
       "headers": [
         {
           "level": 2,
-          "title": "1.Bin2Dec",
-          "slug": "_1-bin2dec"
+          "title": "2.Border Radius Previewer",
+          "slug": "_2-border-radius-previewer"
         },
         {
           "level": 3,
-          "title": "Binary-to-Decimal number converter",
-          "slug": "binary-to-decimal-number-converter"
+          "title": "Preview how CSS3 border-radius values affect an element",
+          "slug": "preview-how-css3-border-radius-values-affect-an-element"
         }
       ]
     },
@@ -86,10 +126,10 @@ export const siteData = {
     {
       "title": "关于我",
       "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-7e83d24b",
-      "path": "/guide/",
+      "regularPath": "/chanllenge/",
+      "relativePath": "chanllenge/README.md",
+      "key": "v-6b72de0a",
+      "path": "/chanllenge/",
       "headers": [
         {
           "level": 2,
@@ -100,26 +140,6 @@ export const siteData = {
           "level": 3,
           "title": "me",
           "slug": "me"
-        }
-      ]
-    },
-    {
-      "title": "4.Christmas Lights",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/4.ChristmasLights.html",
-      "relativePath": "chanllenge/4.ChristmasLights.md",
-      "key": "v-61bf9f44",
-      "path": "/chanllenge/4.ChristmasLights.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "4.Christmas Lights",
-          "slug": "_4-christmas-lights"
-        },
-        {
-          "level": 3,
-          "title": "Simulate a string of Christmas lights",
-          "slug": "simulate-a-string-of-christmas-lights"
         }
       ]
     },
@@ -194,32 +214,12 @@ export const siteData = {
       ]
     },
     {
-      "title": "2.Border Radius Previewer",
-      "frontmatter": {},
-      "regularPath": "/chanllenge/2.BorderRadiusPreviewer.html",
-      "relativePath": "chanllenge/2.BorderRadiusPreviewer.md",
-      "key": "v-fcde769c",
-      "path": "/chanllenge/2.BorderRadiusPreviewer.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "2.Border Radius Previewer",
-          "slug": "_2-border-radius-previewer"
-        },
-        {
-          "level": 3,
-          "title": "Preview how CSS3 border-radius values affect an element",
-          "slug": "preview-how-css3-border-radius-values-affect-an-element"
-        }
-      ]
-    },
-    {
       "title": "关于我",
       "frontmatter": {},
-      "regularPath": "/chanllenge/",
-      "relativePath": "chanllenge/README.md",
-      "key": "v-6b72de0a",
-      "path": "/chanllenge/",
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-7e83d24b",
+      "path": "/guide/",
       "headers": [
         {
           "level": 2,
@@ -245,6 +245,26 @@ export const siteData = {
           "level": 2,
           "title": "Love",
           "slug": "love"
+        }
+      ]
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/vuetest/",
+      "relativePath": "vuetest/README.md",
+      "key": "v-b844bbda",
+      "path": "/vuetest/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        },
+        {
+          "level": 3,
+          "title": "me",
+          "slug": "me"
         }
       ]
     },
@@ -279,13 +299,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/wedding/",
-      "relativePath": "wedding/README.md",
-      "key": "v-1b3bb8ca",
-      "path": "/wedding/"
-    },
-    {
       "title": "VueTest",
       "frontmatter": {},
       "regularPath": "/vuetest/VueTest.html",
@@ -301,24 +314,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "关于我",
       "frontmatter": {},
-      "regularPath": "/vuetest/",
-      "relativePath": "vuetest/README.md",
-      "key": "v-b844bbda",
-      "path": "/vuetest/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        },
-        {
-          "level": 3,
-          "title": "me",
-          "slug": "me"
-        }
-      ]
+      "regularPath": "/wedding/",
+      "relativePath": "wedding/README.md",
+      "key": "v-1b3bb8ca",
+      "path": "/wedding/"
     }
   ],
   "themeConfig": {
